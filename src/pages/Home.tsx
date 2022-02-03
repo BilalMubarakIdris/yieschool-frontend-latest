@@ -1,11 +1,9 @@
 import YIEButton from "../YIEUI/YIEButton"
-
+import Footer from "../Components/Footer"
 const Home = () => {
     return (
         <div>
-            Home Page
-            <YIEButton content="Button One" bgColor="red" />
-            <YIEButton content="Button One" bgColor="blue" />
+            <Footer/>
         </div>
     )
 }
